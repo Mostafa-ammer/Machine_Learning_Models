@@ -59,6 +59,20 @@ Very Low Learning Rate:
 - Getting Stuck: If the learning rate is too low, the model may get stuck in local minima or plateaus and struggle to escape from them.
 ![image](https://mancap314.github.io/assets/too-slow-gd.png)
 
+# Polynomial Regression in Linear Regression
+Polynomial regression is a technique that expands upon linear regression to model more complex relationships between variables. While linear regression assumes a linear relationship between the independent and dependent variables, polynomial regression allows us to capture nonlinear relationships by introducing higher-degree polynomial terms.
+
+
+The general form of a polynomial regression equation of degree n is:
+
+\[y = b_0 + b_1x + b_2x^2 + b_3x^3 + \ldots + b_nx^n\]
+
+Where:
+- \(y\) is the dependent variable.
+- \(x\) is the independent variable.
+- \(b_0, b_1, b_2, \ldots, b_n\) are the coefficients to be estimated.
+
+
 
 
 
