@@ -44,7 +44,19 @@ Efficiency: It is efficient for optimizing large datasets and high-dimensional f
 Flexibility: It can be used with various cost functions and is not limited to linear regression.
 Convergence: With appropriate hyperparameter settings, it typically converges to a minimum point.
 
+# Learning Rate
+The learning rate is a crucial hyperparameter in the context of gradient-based optimization algorithms, such as Gradient Descent, used in linear regression and many other machine learning models. It significantly impacts the training process and the performance of your linear regression model
 
+High Learning Rate lead to :
+- Overshooting: When the learning rate is too high, the model may take excessively large steps during training. This can cause it to overshoot the optimal parameter values and result in instability.
+- Divergence: In extreme cases, a very high learning rate can cause the training process to diverge completely. The loss may increase at each iteration instead of decreasing, leading to an unusable model.
+![image](https://miro.medium.com/v2/resize:fit:552/1*69g-QzyJ_sRJ033Ydph9Ww.png)
+Very Low Learning Rate:
+
+- Slow Convergence: A very low learning rate will cause the model to update its parameters very slowly. This can result in extremely slow convergence, and the training process may require a large number of 
+  epochs to reach a satisfactory solution, or it may get stuck in local minima.
+
+- Getting Stuck: If the learning rate is too low, the model may get stuck in local minima or plateaus and struggle to escape from them.
 
 
 
