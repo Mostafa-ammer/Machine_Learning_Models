@@ -34,9 +34,7 @@ the cost function is typically defined as the Mean Squared Error (MSE), which is
 Gradient Descent works by iteratively adjusting the model's parameters (coefficients) to minimize this cost function. It calculates the gradient (slope) of the cost function with respect to each parameter and updates the parameters in the direction that decreases the cost
 
                                                                  θ = θ - α * ∂(MSE)/∂θ
-
-
-                                                                
+                                                              
 # Benefits of Gradient Descent
 Gradient Descent offers several advantages in linear regression:
 
@@ -71,3 +69,21 @@ Where:
 - \(y\) is the dependent variable.
 - \(x\) is the independent variable.
 - \(b_0, b_1, b_2, \ldots, b_n\) are the coefficients to be estimated.
+
+### Key Considerations
+
+- **Choice of Degree**: Selecting the appropriate degree of the polynomial is crucial. Too high a degree can lead to overfitting, while too low a degree may result in underfitting. Cross-validation can help find the optimal degree.
+
+- **Interpretability**: As the degree increases, the model becomes more complex, and interpreting coefficients can be challenging.
+
+- **Overfitting**: Be cautious of overfitting, especially with high-degree polynomials. Regularization techniques can help.
+
+- **Data Transformation**: Preprocessing data through scaling or standardization can enhance model stability.
+
+- **Visualization**: Visualizing data and the fitted polynomial curve can aid in understanding the relationship.
+
+
+
+
+
+
