@@ -29,11 +29,11 @@ Gradient Descent is a fundamental optimization technique used to find the optima
 # How Gradient Descent Works
 the cost function is typically defined as the Mean Squared Error (MSE), which is the average of the squared differences between predicted and actual values
 
-                                                                  ## MSE = (1/n) * Σ(yᵢ - ŷᵢ)²
+                                                                 MSE = (1/n) * Σ(yᵢ - ŷᵢ)²
                                                                   
 Gradient Descent works by iteratively adjusting the model's parameters (coefficients) to minimize this cost function. It calculates the gradient (slope) of the cost function with respect to each parameter and updates the parameters in the direction that decreases the cost
 
-                                                                ## θ = θ - α * ∂(MSE)/∂θ
+                                                                 θ = θ - α * ∂(MSE)/∂θ
 
 
                                                                 
