@@ -26,3 +26,14 @@ To model the relationship between the input features and the log-odds, logistic 
  The sigmoid function maps any real-valued number (the logit) to a value between 0 and 1, representing the probability of the event occurring. If the logit is very large (positive), the probability is close to 1, and if the logit is very small (negative), the probability is close to 0. When the logit is 0, the probability is 0.5.
 
 ​![Alt text](https://th.bing.com/th/id/R.1e57c046e521fa3dd1d93fdc28fcae09?rik=cKAknoKsD0tpDg&pid=ImgRaw&r=0)
+
+
+# Cost function 
+
+- MSE is typically used for regression problems where the goal is to predict a continuous target variable. Logistic regression, on the other hand, deals with binary or multi-class classification problems where the 
+  output is a probability (between 0 and 1) of belonging to a particular class
+- MSE is not suitable for modeling probabilities because it does not enforce the necessary constraints on predicted probabilities.
+- The MSE loss function is non-convex and non-smooth when applied to logistic regression. This means that optimization algorithms may have difficulty finding the global minimum, leading to convergence issues and suboptimal results
+
+
+  
