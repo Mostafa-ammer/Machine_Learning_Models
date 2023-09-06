@@ -25,4 +25,4 @@ To model the relationship between the input features and the log-odds, logistic 
 
  The sigmoid function maps any real-valued number (the logit) to a value between 0 and 1, representing the probability of the event occurring. If the logit is very large (positive), the probability is close to 1, and if the logit is very small (negative), the probability is close to 0. When the logit is 0, the probability is 0.5.
 
-​
+​![Alt text](https://th.bing.com/th/id/R.1e57c046e521fa3dd1d93fdc28fcae09?rik=cKAknoKsD0tpDg&pid=ImgRaw&r=0)
