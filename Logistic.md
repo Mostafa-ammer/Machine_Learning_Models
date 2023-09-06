@@ -40,7 +40,7 @@ To model the relationship between the input features and the log-odds, logistic 
 
 ## How solve Proplem 
 
-
+the logistic loss (cross-entropy loss) is the preferred choice for logistic regression because it is specifically designed for binary and multi-class classification problems, encourages the model to output probabilities, is convex and smooth, and aligns with standard classification evaluation metrics
 
 
 
