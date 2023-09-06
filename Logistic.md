@@ -67,8 +67,3 @@ The goal during training is to find the set of model parameters that minimizes t
 The overall cost function for logistic regression is the average (or sum) of these individual costs across all training examples. If you have a training dataset with \( N \) examples, the cost function \( J(\theta) \) (where \( \theta \) represents the model parameters, including the coefficients) is typically defined as:
 
 \[ J(\theta) = \frac{1}{N} \sum_{i=1}^{N} \left[ -y^{(i)} \log(\hat{y}^{(i)}) - (1 - y^{(i)}) \log(1 - \hat{y}^{(i)}) \right] \]
-
-
-
-
-
