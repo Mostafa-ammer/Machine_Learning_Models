@@ -69,4 +69,3 @@ The goal during training is to find the set of model parameters that minimizes t
 
 
 
-
