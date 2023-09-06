@@ -80,4 +80,29 @@ The overall cost function for logistic regression is the average (or sum) of the
   efficiently, allowing for efficient gradient-based optimization techniques.
 
 -  log loss in logistic regression indeed results in a convex cost function, which facilitates the training and optimization of the logistic regression model
-​![Alt text](https://th.bing.com/th/id/OIP._G3J_3SSN3mmakDWOzwhcQAAAA?pid=ImgDet&rs=1) 
+​![Alt text](https://th.bing.com/th/id/OIP._G3J_3SSN3mmakDWOzwhcQAAAA?pid=ImgDet&rs=1)
+
+
+
+# multi-class classification
+
+In multi-class classification problems, you have several techniques for training and using logistic regression models. Here are the three main approaches: One-vs-All (OvA), One-vs-One (OvO), and Softmax (Multinomial)
+
+
+## One-vs-All (OvA) Approach
+
+In the One-vs-All (OvA) approach, also known as One-vs-Rest or OvR, you address multi-class classification problems by training multiple binary logistic regression classifiers. For a problem with N classes, you create N binary classifiers, each of which distinguishes between one specific class and the rest of the classes. 
+
+Here's how OvA works:
+
+1. **Training Phase:** 
+   - For each of the N classes, you train a separate binary classifier.
+   - The binary classifier for class i is trained to distinguish class i from all the other classes. It learns to assign high probabilities to examples belonging to class i and low probabilities to examples not belonging to class i.
+
+2. **Prediction Phase:**
+   - During prediction, you apply all N binary classifiers to a given input.
+   - Each classifier produces a confidence score or probability for the input belonging to its corresponding class.
+   - The final predicted class is the one associated with the classifier that produces the highest confidence (highest probability).
+
+OvA is a straightforward and widely used method for multi-class classification. It is particularly useful when dealing with a large number of classes or when the classes are imbalanced. By breaking down the problem into multiple binary classification tasks, OvA simplifies the modeling process and allows logistic regression models to handle multi-class scenarios effectively.
+
