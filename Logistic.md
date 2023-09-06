@@ -79,6 +79,7 @@ The overall cost function for logistic regression is the average (or sum) of the
 - Well-Behaved Gradient: Log loss has a well-behaved gradient, which simplifies the optimization process. The derivative of the log loss with respect to the model parameters (coefficients) can be computed 
   efficiently, allowing for efficient gradient-based optimization techniques.
 
-
+-  log loss in logistic regression indeed results in a convex cost function, which facilitates the training and optimization of the logistic regression model
+​![Alt text](https://th.bing.com/th/id/OIP._G3J_3SSN3mmakDWOzwhcQAAAA?pid=ImgDet&rs=1) 
 
 
