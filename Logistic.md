@@ -16,4 +16,13 @@ To model the relationship between the input features and the log-odds, logistic 
 
 
 
- 
+  # Sigmoid Function
+
+  The sigmoid function, also known as the logistic function, is used to transform the logit (log-odds) into a probability between 0 and 1
+
+                                                        P(event)= 1 / 1+e pow(- logit)
+
+
+ The sigmoid function maps any real-valued number (the logit) to a value between 0 and 1, representing the probability of the event occurring. If the logit is very large (positive), the probability is close to 1, and if the logit is very small (negative), the probability is close to 0. When the logit is 0, the probability is 0.5.
+
+​
