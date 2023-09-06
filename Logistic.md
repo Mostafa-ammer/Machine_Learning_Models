@@ -89,7 +89,7 @@ The overall cost function for logistic regression is the average (or sum) of the
 In multi-class classification problems, you have several techniques for training and using logistic regression models. Here are the three main approaches: One-vs-All (OvA), One-vs-One (OvO), and Softmax (Multinomial)
 
 
-## One-vs-All (OvA) Approach
+## 1- One-vs-All (OvA) Approach
 
 In the One-vs-All (OvA) approach, also known as One-vs-Rest or OvR, you address multi-class classification problems by training multiple binary logistic regression classifiers. For a problem with N classes, you create N binary classifiers, each of which distinguishes between one specific class and the rest of the classes. 
 
