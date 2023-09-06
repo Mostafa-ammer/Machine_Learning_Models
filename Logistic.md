@@ -6,12 +6,12 @@ Logistic regression is a fundamental and widely used statistical technique in ma
 
 In logistic regression, we model the odds of an event occurring. The odds of an event happening is defined as the ratio of the probability of the event occurring to the probability of it not occurring. Mathematically, the odds (OR) can be expressed as:
 
-                                                             Odds= P(event)/1−P(event)
+                                                              Odds= P(event)/1−P(event)
                                                                         
 
 To model the relationship between the input features and the log-odds, logistic regression applies a logit transformation. The logit transformation takes the natural logarithm (base e) of the odds
 ​
-                                                            logit(P(event))=ln( P(event) /1−P(event))
+                                                             logit(P(event))=ln( P(event) /1−P(event))
 
 
 
