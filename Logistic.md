@@ -105,7 +105,7 @@ Here's how OvA works:
    - The final predicted class is the one associated with the classifier that produces the highest confidence (highest probability).
 
 OvA is a straightforward and widely used method for multi-class classification. It is particularly useful when dealing with a large number of classes or when the classes are imbalanced. By breaking down the problem into multiple binary classification tasks, OvA simplifies the modeling process and allows logistic regression models to handle multi-class scenarios effectively.
-​![Alt text](https://www.researchgate.net/publication/342767111/figure/fig4/AS:911031920496642@1594218344322/SVM-one-versus-many-modeling.png)
+​![Alt text](https://miro.medium.com/v2/resize:fit:1400/1*RElrybCZ4WPsUfRwDl7fqA.png)
 
 
 ## 2- One-vs-One (OvO) Approach
