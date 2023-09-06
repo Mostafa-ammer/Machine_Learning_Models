@@ -67,3 +67,18 @@ The goal during training is to find the set of model parameters that minimizes t
 The overall cost function for logistic regression is the average (or sum) of these individual costs across all training examples. If you have a training dataset with \( N \) examples, the cost function \( J(\theta) \) (where \( \theta \) represents the model parameters, including the coefficients) is typically defined as:
 
 \[ J(\theta) = \frac{1}{N} \sum_{i=1}^{N} \left[ -y^{(i)} \log(\hat{y}^{(i)}) - (1 - y^{(i)}) \log(1 - \hat{y}^{(i)}) \right] \]
+
+# Benfits of using Log Loss 
+
+- Probabilistic Interpretation: Log loss provides a probabilistic interpretation of the model's predictions. Instead of just binary classifications (0 or 1), logistic regression outputs probabilities between 0 and 
+  indicating the confidence or likelihood of an example belonging to a particular class. This is valuable for understanding the model's uncertainty and making informed decisions.
+
+- Continuous and Smooth Loss Function: Log loss is continuous and smooth, which makes it suitable for optimization using gradient-based algorithms like gradient descent. Smoothness ensures that small changes in 
+  model parameters result in continuous changes in the loss, aiding convergence during training.
+
+- Well-Behaved Gradient: Log loss has a well-behaved gradient, which simplifies the optimization process. The derivative of the log loss with respect to the model parameters (coefficients) can be computed 
+  efficiently, allowing for efficient gradient-based optimization techniques.
+
+
+
+
