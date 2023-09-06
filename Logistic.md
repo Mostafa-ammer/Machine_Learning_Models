@@ -126,7 +126,8 @@ Here's how OvO works:
 OvO is a versatile method for multi-class classification, and it can work well when dealing with small to medium-sized datasets. It's robust to class imbalances and provides a way to handle multi-class scenarios by considering pairwise classifications.
 
 
-
+​![Alt text](https://image.slidesharecdn.com/binaryandmulticlassstrategiesformachinelearning-150812083402-lva1-app6892/95/binary-class-and-multi-class-strategies-for-machine-learning-14-638.jpg?cb=1439468837
+)
 ## 3- Softmax (Multinomial) Approach
 
 The Softmax (Multinomial) approach, also known as multinomial logistic regression, directly models the joint probability of all classes in multi-class classification problems. Unlike the One-vs-All (OvA) or One-vs-One (OvO) approaches that involve multiple binary classifiers, Softmax uses a single classifier to predict the probabilities of all classes simultaneously.
