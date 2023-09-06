@@ -106,3 +106,21 @@ Here's how OvA works:
 
 OvA is a straightforward and widely used method for multi-class classification. It is particularly useful when dealing with a large number of classes or when the classes are imbalanced. By breaking down the problem into multiple binary classification tasks, OvA simplifies the modeling process and allows logistic regression models to handle multi-class scenarios effectively.
 
+
+
+## 2- One-vs-One (OvO) Approach
+
+In the One-vs-One (OvO) approach, you address multi-class classification problems by training binary logistic regression classifiers for each pair of classes. For a problem with N classes, you create N(N-1)/2 binary classifiers, each of which distinguishes between a specific pair of classes. 
+
+Here's how OvO works:
+
+1. **Training Phase:** 
+   - For each pair of classes (i, j), where i ≠ j, you train a binary classifier.
+   - The binary classifier for classes (i, j) is trained to distinguish class i from class j. It learns to assign high probabilities to examples belonging to class i and low probabilities to examples belonging to class j.
+
+2. **Prediction Phase:**
+   - During prediction, you apply all N(N-1)/2 binary classifiers to a given input.
+   - Each classifier produces a confidence score or probability for the input belonging to one of the two classes in the pair.
+   - The final predicted class is determined by a voting mechanism or by choosing the class with the most votes from the classifiers.
+
+OvO is a versatile method for multi-class classification, and it can work well when dealing with small to medium-sized datasets. It's robust to class imbalances and provides a way to handle multi-class scenarios by considering pairwise classifications.
