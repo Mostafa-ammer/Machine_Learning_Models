@@ -42,8 +42,12 @@ To model the relationship between the input features and the log-odds, logistic 
 
 the logistic loss (cross-entropy loss) is the preferred choice for logistic regression because it is specifically designed for binary and multi-class classification problems, encourages the model to output probabilities, is convex and smooth, and aligns with standard classification evaluation metrics
 
+In logistic regression, the cost function, also known as the loss function or log-likelihood function, is used to quantify how well the model's predicted probabilities match the actual binary labels in the training data. The goal of logistic regression is to minimize this cost function during training. The specific cost function used in logistic regression is called the "logistic loss" or "cross-entropy loss."
+If the actual label is 1:
+\[ \text{Cost}(y, \hat{y}) = -\log(\hat{y}) \]
 
-
+If the actual label is 0:
+\[ \text{Cost}(y, \hat{y}) = -\log(1 - \hat{y}) \]
 
 
 
