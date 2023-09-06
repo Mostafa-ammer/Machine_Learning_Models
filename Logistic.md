@@ -146,4 +146,4 @@ Here's how Softmax works:
 Softmax is a popular and elegant method for multi-class classification. It simplifies the modeling process by considering all classes simultaneously and provides direct probability estimates for each class. Softmax is widely used in various machine learning techniques, including deep learning, and is suitable for problems with moderate class counts.
 
 When choosing between Softmax, OvA, or OvO for multi-class classification, Softmax is often preferred when you want a single, comprehensive model that estimates probabilities directly.
-
+​![Alt text](https://th.bing.com/th/id/OIP.V_TW0Y_ijBXBfpS5ZNr2qgAAAA?pid=ImgDet&rs=1)
