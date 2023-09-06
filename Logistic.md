@@ -124,3 +124,25 @@ Here's how OvO works:
    - The final predicted class is determined by a voting mechanism or by choosing the class with the most votes from the classifiers.
 
 OvO is a versatile method for multi-class classification, and it can work well when dealing with small to medium-sized datasets. It's robust to class imbalances and provides a way to handle multi-class scenarios by considering pairwise classifications.
+
+
+
+## 3- Softmax (Multinomial) Approach
+
+The Softmax (Multinomial) approach, also known as multinomial logistic regression, directly models the joint probability of all classes in multi-class classification problems. Unlike the One-vs-All (OvA) or One-vs-One (OvO) approaches that involve multiple binary classifiers, Softmax uses a single classifier to predict the probabilities of all classes simultaneously.
+
+Here's how Softmax works:
+
+1. **Training Phase:**
+   - You train a single logistic regression model with multiple outputs, one for each class.
+   - The model uses the softmax function to convert raw scores (logits) into probabilities. The softmax function ensures that the predicted probabilities sum to 1 for each example.
+   - The model's parameters (coefficients) are learned to maximize the likelihood of the observed data under the model. This is typically done using optimization algorithms like gradient descent.
+
+2. **Prediction Phase:**
+   - During prediction, the model takes an input and produces a probability distribution over all classes.
+   - The class with the highest predicted probability is chosen as the final classification.
+
+Softmax is a popular and elegant method for multi-class classification. It simplifies the modeling process by considering all classes simultaneously and provides direct probability estimates for each class. Softmax is widely used in various machine learning techniques, including deep learning, and is suitable for problems with moderate class counts.
+
+When choosing between Softmax, OvA, or OvO for multi-class classification, Softmax is often preferred when you want a single, comprehensive model that estimates probabilities directly.
+
