@@ -10,7 +10,8 @@ In logistic regression, we model the odds of an event occurring. The odds of an 
                                                                         
 
 To model the relationship between the input features and the log-odds, logistic regression applies a logit transformation. The logit transformation takes the natural logarithm (base e) of the odds
-​
+​      
+
                                                              logit(P(event))=ln( P(event) /1−P(event))
 
 
