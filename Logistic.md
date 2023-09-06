@@ -35,5 +35,4 @@ To model the relationship between the input features and the log-odds, logistic 
 - MSE is not suitable for modeling probabilities because it does not enforce the necessary constraints on predicted probabilities.
 - The MSE loss function is non-convex and non-smooth when applied to logistic regression. This means that optimization algorithms may have difficulty finding the global minimum, leading to convergence issues and suboptimal results
 
-
-  
+​![Alt text](https://th.bing.com/th/id/OIP.Mcij1eXbWrxWe2IpBNNkrAAAAA?pid=ImgDet&rs=1)
