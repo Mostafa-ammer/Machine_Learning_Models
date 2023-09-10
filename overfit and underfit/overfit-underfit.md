@@ -6,9 +6,13 @@ Overfitting is a common problem in machine learning and statistical modeling whe
 
 # what are the Key characteristics of overfitting ?
 1- High Variance.
+
 2- Complexity.
+
 3- Sensitive to Noise.
+
 4- Poor Generalization.
+
 5- Perfect Fit to Training Data.
 
 # what are various techniques can be applied to address overfitting  ?
