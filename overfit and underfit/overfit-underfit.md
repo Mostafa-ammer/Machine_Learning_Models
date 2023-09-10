@@ -15,7 +15,7 @@ Overfitting is a common problem in machine learning and statistical modeling whe
 
 1- Regularization: Adding regularization terms to the model's objective function (e.g., L1 or L2 regularization) to penalize overly complex models.
 
-2- Increasing Training Data: Gathering more training data, if possible, to provide the model with a larger and more diverse dataset
+2- Increasing Training Data: Gathering more training data, if possible, to provide the model with a larger and more diverse dataset.
 
 3- Feature Selection: Carefully selecting relevant features and removing irrelevant or noisy ones.
 
