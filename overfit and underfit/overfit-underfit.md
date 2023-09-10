@@ -27,3 +27,11 @@ Overfitting is a common problem in machine learning and statistical modeling whe
 
 5- Cross-Validation: Using cross-validation to evaluate model performance on validation data and select the best model.
 
+
+
+what is underfitting ?
+
+Underfitting refers to a situation in machine learning where a model is too simplistic or lacks the capacity to capture the underlying patterns or relationships in the training data. It occurs when the model is not complex enough to represent the complexities of the data.
+When a model underfits, it fails to learn the training data properly and performs poorly not only on the training set but also on new, unseen data. It typically exhibits high bias and low variance.
+
+![Alt text](https://trantheanh.github.io/assets/content_images/ml10-02.png)
