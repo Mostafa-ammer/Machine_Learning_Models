@@ -14,8 +14,12 @@ Overfitting is a common problem in machine learning and statistical modeling whe
 # what are various techniques can be applied to address overfitting  ?
 
 1- Regularization: Adding regularization terms to the model's objective function (e.g., L1 or L2 regularization) to penalize overly complex models.
+
 2- Increasing Training Data: Gathering more training data, if possible, to provide the model with a larger and more diverse dataset
+
 3- Feature Selection: Carefully selecting relevant features and removing irrelevant or noisy ones.
+
 4- Simplifying Model Complexity: Reducing the model's capacity by using simpler architectures or fewer parameters.
+
 5- Cross-Validation: Using cross-validation to evaluate model performance on validation data and select the best model.
 
