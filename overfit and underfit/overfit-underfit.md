@@ -29,9 +29,30 @@ Overfitting is a common problem in machine learning and statistical modeling whe
 
 
 
-what is underfitting ?
+ # what is underfitting ?
 
 Underfitting refers to a situation in machine learning where a model is too simplistic or lacks the capacity to capture the underlying patterns or relationships in the training data. It occurs when the model is not complex enough to represent the complexities of the data.
 When a model underfits, it fails to learn the training data properly and performs poorly not only on the training set but also on new, unseen data. It typically exhibits high bias and low variance.
 
 ![Alt text](https://trantheanh.github.io/assets/content_images/ml10-02.png)
+
+
+# what are the Key characteristics of underfitting ?
+1-High training and testing error
+
+2-Low complexity or poor fit
+
+3-High bias and low variance
+
+4-Inability to generalize
+
+# what are various techniques can be applied to address underfitting  ?
+
+1- Increase model complexity
+
+2- Feature engineering
+
+3- Reduce regularization
+
+
+
