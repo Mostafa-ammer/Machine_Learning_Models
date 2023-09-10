@@ -55,4 +55,14 @@ When a model underfits, it fails to learn the training data properly and perform
 3- Reduce regularization
 
 
+# what means that the model generalized well ?
+ a model is said to have "generalized well" when it performs effectively on new, unseen data that it hasn't been explicitly trained on. Generalization is a key objective in machine learning because the ultimate goal is to build models that can make accurate predictions or classifications on real-world data, not just on the training data
+
+ # what are the Key characteristics of generalized well ?
+
+ 1- perform well on training and testing 
+ 
+ 2- Absence of Overfitting and underfitting 
+ 
+ 3- Robustness to Variability
 
