@@ -66,3 +66,6 @@ When a model underfits, it fails to learn the training data properly and perform
  
  3- Robustness to Variability
 
+
+
+![Alt text](https://miro.medium.com/v2/resize:fit:1192/1*JzqZ0OtLqKFzsAVWYP-DBg.png)
