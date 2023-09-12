@@ -65,6 +65,17 @@ elbow method can be used to get the the best value of 'k' based on the tradeoff 
 2-increase the value of error **(SSE - Sum of Squared Errors)**
 
 
+# What are the main Hyperparameters in KMeans ?
+1-
+2-
+3-
+4-
+
+
+
+
+
+
 
 
 
