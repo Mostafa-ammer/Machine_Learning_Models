@@ -21,9 +21,7 @@ K
 j=1
 n 
 i
-​
- 
-​
+
  ∣∣x 
 ij
 ​
@@ -33,9 +31,7 @@ i
  ∣∣ 
 2
 '''
-$$
-WCSS = \sum_{i=1}^{K} \sum_{j=1}^{n_i} \left| x_{ij} - c_i \right|^2
-$$
+
 
 
 5- **Repeat:** Steps 2 and 3 are repeated iteratively until a stopping criterion is met. The most common stopping criterion is when the centroids no longer change significantly or when a maximum number of iterations is reached
