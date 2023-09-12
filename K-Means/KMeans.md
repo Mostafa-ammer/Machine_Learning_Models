@@ -68,6 +68,6 @@ The choice of the number of clusters (K) is crucial. There are various methods, 
 
 ## Elbow Method
 elbow method can be used to get the the best value of 'k' based on the tradeoff between overfitting problem and the distortion (WCSS)
-![Image](https://www.researchgate.net/profile/Adria_Binte_Habib/publication/352823947/figure/fig1/AS:1040051081322497@1624978909314/Elbow-method-using-distortion_Q640.jpg)
+![Image](https://editor.analyticsvidhya.com/uploads/62725cluster0.PNG)
 
 
