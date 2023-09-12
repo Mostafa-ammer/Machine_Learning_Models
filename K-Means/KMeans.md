@@ -39,7 +39,7 @@ Feel free to use this equation in your README file to explain the concept of WCS
 
 5- **Repeat:** Steps 2 and 3 are repeated iteratively until a stopping criterion is met. The most common stopping criterion is when the centroids no longer change significantly or when a maximum number of iterations is reached
 
-6- **Convergence Check:**Check if the centroids have changed significantly compared to the previous iteration. This is typically done by measuring the change in centroids' positions or the change in the total within-cluster variance (SSE - Sum of Squared Errors)
+6- **Convergence Check:** Check if the centroids have changed significantly compared to the previous iteration. This is typically done by measuring the change in centroids' positions or the change in the total within-cluster variance (SSE - Sum of Squared Errors)
 
 
 
