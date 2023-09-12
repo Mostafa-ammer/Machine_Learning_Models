@@ -72,7 +72,7 @@ elbow method can be used to get the the best value of 'k' based on the tradeoff 
 
 
 # What are the main Hyperparameters in KMeans ?
-1- **copy_x ** : If set to True, the input data will be copied before running the K-Means algorithm. This can help avoid modifying the original data.
+1- **copy_x  :** If set to True, the input data will be copied before running the K-Means algorithm. This can help avoid modifying the original data.
 
 2-**init :** This hyperparameter determines the method used for initializing the cluster centroids. 'k-means++' is the default, which is a smart initialization method that tends to produce better initial centroids and faster convergence .
 
