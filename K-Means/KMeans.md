@@ -11,8 +11,27 @@
 
 3- **Update Centroid:** : After assigning all data points to clusters, the algorithm updates the cluster centroids by computing the mean (average) of all data points assigned to each cluster. These new centroids represent the updated cluster centers .
 
-4- Calculate Errror **(WCSS)** within class sum of square
+4- Calculate Errror **(WCSS)** within class sum of square .
 '''
+WCSS=∑ 
+i=1
+K
+​
+ ∑ 
+j=1
+n 
+i
+​
+ 
+​
+ ∣∣x 
+ij
+​
+ −c 
+i
+​
+ ∣∣ 
+2
 $$
 WCSS = \sum_{i=1}^{K} \sum_{j=1}^{n_i} \left| x_{ij} - c_i \right|^2
 $$
