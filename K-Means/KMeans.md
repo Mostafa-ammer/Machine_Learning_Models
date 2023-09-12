@@ -32,6 +32,26 @@ i
 2
 '''
 
+### Within-Cluster Sum of Squares (WCSS)
+
+The formula for calculating WCSS (Within-Cluster Sum of Squares) in K-Means clustering is given as:
+
+$$
+WCSS = \sum_{i=1}^{K} \sum_{j=1}^{n_i} \left| x_{ij} - c_i \right|^2
+$$
+
+Where:
+- \(WCSS\) is the Within-Cluster Sum of Squares.
+- \(K\) is the number of clusters.
+- \(n_i\) is the number of data points in cluster \(i\).
+- \(x_{ij}\) represents the \(j\)-th data point in cluster \(i\).
+- \(c_i\) is the centroid of cluster \(i\).
+
+WCSS is used to evaluate the quality of clustering in K-Means and measures how close data points are to their respective cluster centroids. The goal is to minimize WCSS by adjusting the cluster centroids.
+
+Feel free to use this equation in your README file to explain the concept of WCSS in the context of K-Means clustering.
+
+
 
 5- **Repeat:** Steps 2 and 3 are repeated iteratively until a stopping criterion is met. The most common stopping criterion is when the centroids no longer change significantly or when a maximum number of iterations is reached
 
