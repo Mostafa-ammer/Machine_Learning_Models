@@ -53,4 +53,22 @@ elbow method can be used to get the the best value of 'k' based on the tradeoff 
 ![Image](https://editor.analyticsvidhya.com/uploads/62725cluster0.PNG)
 
 
+# what happen if the value of  ' k' is very large in elbow method ?
+
+1-**Overfitting:** When you increase the number of clusters ('K'), each cluster tends to become smaller and more specialized. This can lead to overfitting, where clusters capture noise in the data rather than meaningful patterns. 
+2-**Increased Computational Complexity:** As 'K' increases, the computational complexity of the K-Means algorithm grows significantly. The algorithm needs to calculate distances and update centroids for each cluster, making it slower and more resource-intensive. Large 'K' values can result in long training times.
+
+
+# what happen if the value of  ' k' is very small in elbow method ?
+
+1-**Underfitting:** When 'K' is too small, each cluster becomes too broad and may encompass diverse data points that do not belong to the same meaningful group. This results in an underfitting problem, where clusters fail to capture the true structure and patterns in the data
+2-increase the value of error **(SSE - Sum of Squared Errors)**
+
+
+
+
+
+
+
+
 
