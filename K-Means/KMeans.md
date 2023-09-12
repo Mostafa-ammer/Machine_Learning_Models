@@ -32,6 +32,7 @@ i
 ​
  ∣∣ 
 2
+'''
 $$
 WCSS = \sum_{i=1}^{K} \sum_{j=1}^{n_i} \left| x_{ij} - c_i \right|^2
 $$
