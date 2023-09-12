@@ -72,14 +72,21 @@ elbow method can be used to get the the best value of 'k' based on the tradeoff 
 
 
 # What are the main Hyperparameters in KMeans ?
-1-
-2-
-3-
-4-
+1- **copy_x ** : If set to True, the input data will be copied before running the K-Means algorithm. This can help avoid modifying the original data.
 
+2-**init :** This hyperparameter determines the method used for initializing the cluster centroids. 'k-means++' is the default, which is a smart initialization method that tends to produce better initial centroids and faster convergence .
 
+3- **n_clusters (default: 3):**
+This is the number of clusters (K) that you want to create using K-Means. It's an important hyperparameter that determines the number of clusters you expect to find in your data.
 
+4-**max_iter (default: 300):**
+It specifies the maximum number of iterations for the K-Means algorithm
 
+5- **tol (default: 0.0001):**
+The tolerance level for convergence. The algorithm will stop when the change in cluster centroids between iterations is less than this threshold.
+
+6- **random_state (default: None):**
+If set to an integer value, it initializes the random number generator, ensuring reproducibility. Setting it to a specific integer will yield consistent results across runs.
 
 
 
