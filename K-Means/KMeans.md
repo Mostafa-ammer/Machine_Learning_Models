@@ -5,9 +5,11 @@
 
 # what are the main steps in KMeans Model ?
 
-1- **Initialization:** The algorithm starts by randomly selecting K data points from the dataset as initial cluster centroids .
+1- **Initialization:** The algorithm starts by randomly selecting K data points from the dataset as initial cluster centroids.
 
-2- **Assignment":** For each data point in the dataset, the algorithm calculates the distance between the point and each of the K centroids. The data point is assigned to the cluster whose centroid is closest to it .
+  
+2- **Assignment":** For each data point in the dataset, the algorithm calculates the distance between the point and each of the K centroids. The data point is assigned to the cluster whose centroid is closest to it.
+
 
 3- **Update Centroid:** : After assigning all data points to clusters, the algorithm updates the cluster centroids by computing the mean (average) of all data points assigned to each cluster. These new centroids represent the updated cluster centers .
 
@@ -56,12 +58,14 @@ elbow method can be used to get the the best value of 'k' based on the tradeoff 
 # what happen if the value of  ' k' is very large in elbow method ?
 
 1-**Overfitting:** When you increase the number of clusters ('K'), each cluster tends to become smaller and more specialized. This can lead to overfitting, where clusters capture noise in the data rather than meaningful patterns. 
+
 2-**Increased Computational Complexity:** As 'K' increases, the computational complexity of the K-Means algorithm grows significantly. The algorithm needs to calculate distances and update centroids for each cluster, making it slower and more resource-intensive. Large 'K' values can result in long training times.
 
 
 # what happen if the value of  ' k' is very small in elbow method ?
 
-1-**Underfitting:** When 'K' is too small, each cluster becomes too broad and may encompass diverse data points that do not belong to the same meaningful group. This results in an underfitting problem, where clusters fail to capture the true structure and patterns in the data
+1-**Underfitting:** When 'K' is too small, each cluster becomes too broad and may encompass diverse data points that do not belong to the same meaningful group. This results in an underfitting problem, where clusters fail to capture the true structure and patterns in the data.
+
 2-increase the value of error **(SSE - Sum of Squared Errors)**
 
 
