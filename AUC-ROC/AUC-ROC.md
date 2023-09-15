@@ -54,11 +54,3 @@ a higher X-axis value indicates a higher number of False positives than True neg
 - Point E is where the Specificity becomes highest. Meaning the model classifies no False Positives. The model can correctly classify all the Negative class points! We would choose this point if our problem was to give perfect song recommendations to our users.
 
 - can we guess where the point corresponding to a perfect classifier would lie on the graph?
-
-
-
-
-
-
-
-
