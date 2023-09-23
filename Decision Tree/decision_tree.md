@@ -5,3 +5,7 @@ is a popular machine learning algorithm used for both classification and regress
 
 
 # what are the disadvantages of decision tree ?
+1- **Overfitting:** Decision trees are prone to overfitting, especially when the tree is deep and captures noise or specific patterns in the training data that may not generalize well to new, unseen data.
+
+
+2-**Instability:** Decision trees can be sensitive to small variations in the training data. A slight change in the data can result in a completely different tree structure, leading to instability in the model.
