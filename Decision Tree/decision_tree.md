@@ -36,8 +36,19 @@ Pruning involves removing some branches of the tree that do not contribute signi
 
 2-**post-pruning :** is a technique used in decision tree construction to reduce overfitting after the tree has been fully grown
 
+# what are stopping criteria in pre-pruning ?
 
+1- Max Depth 
 
+2-min_sample_leaf
+
+3-min_sample split
+
+4- Minumun information gain
+
+# what are stopping criteria in post-pruning ?
+
+1- cost complexity pruning (cpp_alpha) : make balance between performance in training and validation 
 
 
 
