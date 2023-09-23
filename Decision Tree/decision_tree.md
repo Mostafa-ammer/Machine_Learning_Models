@@ -18,6 +18,7 @@ Classification Impurity Measures are :
 
 2- **Entropy:** Entropy measures the level of disorder or impurity in a node. It is based on the information theory concept and is used to quantify the uncertainty associated with the class labels. Lower entropy values indicate purer nodes.
 
+![image](https://aiplanet.com/blog/wp-content/uploads/2021/04/Entropy_3.png)
 
 
 Entropy(D) = -∑(p_i * log2(p_i))
