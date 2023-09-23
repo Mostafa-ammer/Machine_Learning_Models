@@ -76,3 +76,16 @@ Pruning involves removing some branches of the tree that do not contribute signi
 7- splitter 
 
 8- class weight 
+
+
+
+ # what are the difference between mmin_sample_leaf and min sample split ?
+
+lets say that min_samples_split = 9 and min_samples_leaf =3 .
+
+in the internal node,right split not allowed (3<9) and left split is allowed (10>9) . but because min_samples_leaf =3 and one leaf is 2 (the right one) so 10 will not split to 2 and 8.
+
+Look at the leaf with the number 3 (from the first splitting). If we decide that mim_samples_leaf =4 and not 3 so even the first splitting would not be happen (13 to 10 and 3) .
+
+
+![image](https://i.stack.imgur.com/8mESd.png)
