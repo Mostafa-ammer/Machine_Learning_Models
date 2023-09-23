@@ -50,6 +50,10 @@ Pruning involves removing some branches of the tree that do not contribute signi
 
 1- cost complexity pruning (cpp_alpha) : make balance between performance in training and validation 
 
+![image](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/10/Image-7.png)
 
+ # what happen if the value of ccp_alpha is very large or very small ?
+ 
+1- if the value of ccp_alpha is very large , This can lead to overly aggressive pruning, resulting in a tree that is too simple and may underfit the training data.
 
-
+2- if the value of ccp_alpha is very small , This may lead to minimal or no pruning, resulting in a fully grown tree (complex and overfit).
