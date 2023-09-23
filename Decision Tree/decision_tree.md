@@ -32,9 +32,9 @@ Variance Impurity Measure
 Pruning involves removing some branches of the tree that do not contribute significantly to improving its performance on the validation or test data.
 
 # what are the types of pruning ?
-1- pre-pruning : is a technique used in decision tree construction to prevent the tree from becoming overly complex and overfitting the training data. Unlike post-pruning (pruning after the tree is fully grown), pre-pruning involves setting stopping criteria during the tree-building process.
+1- **pre-pruning :** is a technique used in decision tree construction to prevent the tree from becoming overly complex and overfitting the training data. Unlike post-pruning (pruning after the tree is fully grown), pre-pruning involves setting stopping criteria during the tree-building process.
 
-2-is a technique used in decision tree construction to reduce overfitting after the tree has been fully grown
+2-**post-pruning :** is a technique used in decision tree construction to reduce overfitting after the tree has been fully grown
 
 
 
