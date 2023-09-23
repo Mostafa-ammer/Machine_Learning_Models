@@ -13,6 +13,11 @@ is a popular machine learning algorithm used for both classification and regress
 
 # how measure impurity in classification ?
 Classification Impurity Measures are :
+
 1- **Gini Impurity (Gini Index):** The Gini impurity measures the probability of misclassifying a randomly chosen element if it were randomly classified based on the distribution of class labels in the node. It ranges from 0 (pure, all elements belong to one class) to 0.5 (impure, equal distribution among classes).
 
 2- **Entropy:** Entropy measures the level of disorder or impurity in a node. It is based on the information theory concept and is used to quantify the uncertainty associated with the class labels. Lower entropy values indicate purer nodes.
+
+
+
+Entropy(D) = -∑(p_i * log2(p_i))
