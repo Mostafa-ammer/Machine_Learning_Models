@@ -57,3 +57,22 @@ Pruning involves removing some branches of the tree that do not contribute signi
 1- if the value of ccp_alpha is very large , This can lead to overly aggressive pruning, resulting in a tree that is too simple and may underfit the training data.
 
 2- if the value of ccp_alpha is very small , This may lead to minimal or no pruning, resulting in a fully grown tree (complex and overfit).
+
+
+# what are hyperparameters in decision tree ?
+
+1- max_depth 
+
+2- min_sample_leaf
+
+3-min_sample_split
+
+4- random state 
+
+5- max_features 
+
+6- criterition
+
+7- splitter 
+
+8- class weight 
