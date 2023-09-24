@@ -77,8 +77,6 @@ OOB means out of the bag. It is a random forest cross-validation method. In this
 
 3-Using Regularization Term 
 
-4-Feature selection
-
 4- Feature Selection
 
 5- Collect more Data 
