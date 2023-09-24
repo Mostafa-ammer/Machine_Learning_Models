@@ -43,3 +43,27 @@ Step 4: Final output is considered based on Majority Voting or Averaging for Cla
 3- Feature Importance: Random Forests provide a measure of feature importance, which helps identify which features are contributing the most to the model's predictions
 
 4- Parallel Processing: Random Forests can be trained in parallel, which speeds up training on multicore processors.
+
+
+
+# what are Hyperparameters in Random Forest ?
+
+n_estimators: Number of trees the algorithm builds before averaging the predictions.
+
+max_features: Maximum number of features random forest considers splitting a node.
+
+mini_sample_leaf: Determines the minimum number of leaves required to split an internal node.
+
+criterion: How to split the node in each tree
+
+max_leaf_nodes: Maximum leaf nodes in each tree
+
+n_jobs: it tells the engine how many processors it is allowed to use. If the value is 1, it can use only one processor, but if the value is -1, there is no limit.
+
+random_state: controls randomness of the sample. The model will always produce the same results if it has a definite value of random state and has been given the same hyperparameters and training data.
+
+
+
+# what is out of bagging in Random Forest ?
+
+OOB means out of the bag. It is a random forest cross-validation method. In this, one-third of the sample is not used to train the data; instead used to evaluate its performance. These samples are called out-of-bag samples.
