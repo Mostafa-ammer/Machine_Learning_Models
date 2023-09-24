@@ -67,3 +67,17 @@ random_state: controls randomness of the sample. The model will always produce t
 # what is out of bagging in Random Forest ?
 
 OOB means out of the bag. It is a random forest cross-validation method. In this, one-third of the sample is not used to train the data; instead used to evaluate its performance. These samples are called out-of-bag samples.
+
+
+# what are solution to solve overfitting decision tree ?
+
+1-Limit Tree Depth (Pruning)
+
+2- using Ensemble Methods
+
+3- using Regularization Term 
+
+4- Feature Selection
+
+5- Collect more Data 
+
