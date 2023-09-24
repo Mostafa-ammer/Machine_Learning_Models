@@ -13,3 +13,7 @@ Ensemble simplymeans combining multiple models. Thus a collection of models is u
 
  ![image](https://av-eks-blogoptimized.s3.amazonaws.com/4661536426211ba43ea612c8e1a6a1ed4550721164.png)
 
+# what is Bagging technique ?
+
+is the ensemble technique used by random forest.Bagging chooses a random sample/random subset from the entire data set. Hence each model is generated from the samples (Bootstrap Samples) provided by the Original Data with replacement known as row sampling. This step of row sampling with replacement is called **bootstrap**. Now each model is trained independently, which generates results. The final output is based on majority voting after combining the results of all models. This step which involves combining all the results and generating output based on majority voting, is known as **aggregation**.
+![image](https://av-eks-blogoptimized.s3.amazonaws.com/77772440px-Ensemble_Bagging66584.png)
