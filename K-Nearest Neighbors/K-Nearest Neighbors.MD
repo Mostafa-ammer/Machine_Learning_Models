@@ -41,8 +41,11 @@ Let's visualize the algorithm in action with the help of a simple example. Consi
 
 When performing regression, the task is to find the value of a new data point, based on the average weighted sum of the 3 nearest points.
 
-KNN with K = 3, when used for regression:  (IMAGE)
+KNN with K = 3, when used for regression:
 
+
+![image](https://s3.stackabuse.com/media/articles/k-nearest-neighbors-algorithm-python-scikit-learn-1.png)
+![image](https://s3.stackabuse.com/media/articles/k-nearest-neighbors-algorithm-python-scikit-learn-2.png)
 
 
 # Example of Classification Task in KNN ?
