@@ -53,7 +53,8 @@ KNN with K = 3, when used for regression:
 
 calculating the distance of the new point from all the points. It then finds the 3 points with the least distance to the new point. This is shown in the second figure above, in which the three nearest points, 47, 58, and 79 have been encircled. After that, 
 it calculates the weighted sum of 47, 58 and 79 - in this case the weights are equal to 1 - we are considering all points as equals, but we could also assign different weights based on distance. After calculating the weighted sum, the new point value is 61,33.
-And when performing a classification, the KNN task is to classify a new data point, into the "Purple" or "Red" class. (image)
+And when performing a classification, the KNN task is to classify a new data point, into the "Purple" or "Red" class.
+
 ![image](https://s3.stackabuse.com/media/articles/k-nearest-neighbors-algorithm-python-scikit-learn-3.png)
 ![image](https://s3.stackabuse.com/media/articles/k-nearest-neighbors-algorithm-python-scikit-learn-4.png)
 
