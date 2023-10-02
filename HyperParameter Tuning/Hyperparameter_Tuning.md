@@ -1,5 +1,3 @@
-## Hyper-Parameter Tuning
-
 # What is the importance of Hyper-Parameter Tuning ?
 
  Hyperparameters are critical as they carry the responsibility for the outcome of any machine learning,
@@ -17,7 +15,7 @@ deep learning model. Our goal is to find an optimal value for the hyperparameter
 **Hyperparameter Tuning/Optimization** : The process that involves the search of the optimal values of hyperparameters for any machine learning algorithm is called hyperparameter tuning/optimization.
 
 
-#A) What is the  GridSearch ?
+# A) What is the  GridSearch ?
 
 - Grid search picks out a grid of hyperparameter values, evaluates every one of them, and returns the best.
 
