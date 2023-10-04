@@ -15,12 +15,7 @@ Covariance is a statistical measure that quantifies the degree to which two rand
 # What is the equation of Covariance ?
 The covariance between two variables X and Y can be calculated using the following equation:
 
-\[ \text{Cov}(X, Y) = \frac{\sum{(X_i - \bar{X})(Y_i - \bar{Y})}}{N-1} \]
-
-Where:
-- \(X_i\) and \(Y_i\) are individual data points in the datasets X and Y.
-- \(\bar{X}\) and \(\bar{Y}\) are the means (average values) of X and Y, respectively.
-- N is the total number of data points in the datasets.
+![image](https://cdn.corporatefinanceinstitute.com/assets/covariance1.png)
 
 This equation measures how changes in one variable are associated with changes in another. A positive covariance indicates a positive relationship, while a negative covariance indicates a negative relationship. However, the magnitude of covariance is difficult to interpret directly.
 
@@ -48,12 +43,7 @@ Correlation is a statistical measure that quantifies the degree to which two or 
 2- Direction and Magnitude: Covariance alone doesn't provide information about the direction (positive or negative) of the relationship between variables or the strength of        the relationship. Correlation, in contrast, indicates both the direction (positive or negative) and the magnitude (strength) of the linear relationship. This makes it easier to          understand and interpret the nature of the association.
 
 # what is the equation of correlation ?
-The Pearson correlation coefficient (r) can be calculated using the following equation:
-\[ r = \frac{\sum{(X_i - \bar{X})(Y_i - \bar{Y})}}{\sqrt{\sum{(X_i - \bar{X})^2}\sum{(Y_i - \bar{Y})^2}}} \]
-Where:
-- \(X_i\) and \(Y_i\) are individual data points in the datasets X and Y.
-- \(\bar{X}\) and \(\bar{Y}\) are the means (average values) of X and Y, respectively.
-- The summation symbol \(\sum\) represents the sum over all data points in the datasets.
+![image](https://study.com/cimages/multimages/16/corr1_320x134.jpg)
 
 This equation measures the linear relationship between two variables X and Y, with values of r falling between -1 and 1.
 
