@@ -4,11 +4,11 @@ Covariance is a statistical measure that quantifies the degree to which two rand
 
 # What are the types of Covariance ?
 
-**Positive Covariance: **If the covariance between two variables is positive, it means that when one variable tends to have values above its mean, the other variable also tends to have values above its mean. In other words, they both increase together.
+**Positive Covariance:** If the covariance between two variables is positive, it means that when one variable tends to have values above its mean, the other variable also tends to have values above its mean. In other words, they both increase together.
 
 **Negative Covariance:** Conversely, if the covariance is negative, it indicates that when one variable tends to have values above its mean, the other variable tends to have values below its mean. They change in opposite directions.
 
-**Zero Covariance:** A covariance of zero means that there is no linear relationship between the two variables. Changes in one variable do not predict changes in the other.
+**Zero Covariance:**  A covariance of zero means that there is no linear relationship between the two variables. Changes in one variable do not predict changes in the other.
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/Covar.png)
 
