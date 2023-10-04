@@ -49,7 +49,7 @@ When the features are independent, we can extend Bayes’ rule to what is called
 
 # Examble about Naive Bayes with Discrete Data ?
 
-![image]9https://editor.analyticsvidhya.com/uploads/615408.png)
+![image](https://editor.analyticsvidhya.com/uploads/615408.png)
 
 
 Assumptions of Naive Bayes :
@@ -64,9 +64,9 @@ We should try to apply the Naive Bayes formula on the above dataset however befo
 We need to find P(xi|yj) for each xi in X and each yj in Y. All these calculations have been demonstrated below:
 
 ![image](https://editor.analyticsvidhya.com/uploads/7674811.png)
-!image](https://editor.analyticsvidhya.com/uploads/7612312.PNG)
+[!image](https://editor.analyticsvidhya.com/uploads/7612312.PNG)
 
-** Now if we send our test data, suppose test = (Cow, Medium, Black)**
+**Now if we send our test data, suppose test = (Cow, Medium, Black)**
 
 ![image](https://editor.analyticsvidhya.com/uploads/3661813.png)
 ![image](https://editor.analyticsvidhya.com/uploads/9839014.png)
