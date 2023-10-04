@@ -25,7 +25,7 @@ Where:
 This equation measures how changes in one variable are associated with changes in another. A positive covariance indicates a positive relationship, while a negative covariance indicates a negative relationship. However, the magnitude of covariance is difficult to interpret directly.
 
 # what is the Limitation of Covariance  ?
-** Lack of Standardization: **Unlike correlation coefficients, which are standardized and always fall within the range of -1 to 1, covariance values have no inherent bounds. This makes it challenging to assess the strength of the relationship between variables based on the magnitude of the covariance alone.
+**Lack of Standardization**Unlike correlation coefficients, which are standardized and always fall within the range of -1 to 1, covariance values have no inherent bounds. This makes it challenging to assess the strength of the relationship between variables based on the magnitude of the covariance alone.
 
 # How we solve this Problem ?
 By using Correlation between variable not the Covariance ?
@@ -37,11 +37,11 @@ Correlation is a statistical measure that quantifies the degree to which two or 
 
 1- One of the main limitations of covariance is that its value depends on the units of measurement of the variables involved. This makes it difficult to compare covariances                 between different pairs of variables. Correlation, on the other hand, is a dimensionless quantity that ranges from -1 to 1, regardless of the units of the variables. This                     standardization allows for easier comparison of relationships between different pairs of variables.
 
-- An  value close to 1 indicates a strong positive linear relationship.
+- An value close to 1 indicates a strong positive linear relationship.
 
-- An   value close to -1 indicates a strong negative linear relationship.
+- An value close to -1 indicates a strong negative linear relationship.
 
-- An   value close to 0 indicates little to no linear relationship.
+- An value close to 0 indicates little to no linear relationship.
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/Correl.png)
 
