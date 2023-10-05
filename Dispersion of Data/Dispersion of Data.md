@@ -52,7 +52,7 @@ Variance is a simple measure of dispersion. Variance measures how far each numbe
 
 # Specification of Standard deviation and Mean Absolute deviation (Why SD is more reliable than MAD) by an example ?
 ![image](https://editor.analyticsvidhya.com/uploads/15195sd5.png)
-
+![image](https://editor.analyticsvidhya.com/uploads/40750sd4.png)
 
 
 
