@@ -2,12 +2,12 @@
 
 #  What the difference  between Population and Sample ?
 
-** Population** :  the population is a collection of all data points of interest
+**Population** :  the population is a collection of all data points of interest
       Example :   our aim to find out the total number of employees an organization is having. In this case, the total number of employees in the organization is known as                            population.
 
 
 
-**sample  : **  sample is a subset of the population
+**sample:**  sample is a subset of the population
     Our aim to find out the total number of employees on a particular project. In this case, the total number of employees in a project is known as a sample.
 
 # What is the differnce between Parameter and Statistic ?
@@ -33,14 +33,14 @@ In this case, the mean will be the sum of all those numbers divided by the total
 ( 1+2+3+4+5+6+7+8+9+10)/10 = 5.5
 
 
-**Advantage of Mean **:
+**Advantage of Mean**:
 
 1.Easiest measure of central tendency
 
 2.Easier to compute
 
 
-**Disadvantage of Mean **:
+**Disadvantage of Mean**:
 
 1.Heavily affected by the presence of outlier
 
