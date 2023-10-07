@@ -18,7 +18,6 @@ Thus we can find out which number columns are where null values are present, and
 # What are different Methods of Dealing With Missing Data ?
 
 1. Deleting the column with missing data
-![image](https://av-eks-blogoptimized.s3.amazonaws.com/546762.png)
 
 2. Deleting the row with missing data
 
@@ -28,7 +27,7 @@ Thus we can find out which number columns are where null values are present, and
 
 
 3. Filling the Missing Values – Imputation
-![image](https://av-eks-blogoptimized.s3.amazonaws.com/240564.png)
+
 
 **The possible ways to do this are:**
 
