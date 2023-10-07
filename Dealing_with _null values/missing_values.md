@@ -31,14 +31,13 @@ Thus we can find out which number columns are where null values are present, and
 
 **The possible ways to do this are:**
 
-1- Filling the missing data with the mean or median value if it’s a numerical variable.
+a )  Filling the missing data with the mean or median value if it’s a numerical variable.
 
-2- Filling the missing data with mode if it’s a categorical value.
+b)  Filling the missing data with mode if it’s a categorical value.
 
-3- Filling the numerical value with 0 or -999, or some other number that will not occur in the data. This can be done so that the machine can recognize that the data is not real or is different.
+c)  Filling the numerical value with 0 or -999, or some other number that will not occur in the data. This can be done so that the machine can recognize that the data is not real or is different.
 
-4- Filling the categorical value with a new type for the missing values.
-
+d)  Filling the categorical value with a new type for the missing values.
 
 4. Filling with a Regression Model
 In this case, the null values in one column are filled by fitting a regression model using other columns in the dataset
