@@ -6,6 +6,7 @@ if there an outlier on data the most central tendency affected by outliers is " 
 **Example : **
 
 Consider a small dataset, sample= [15, 101, 18, 7, 13, 16, 11, 21, 5, 15, 10, 9]. By looking at it, one can quickly say ‘101’ is an outlier that is much larger than the other values.
+
 ![image](https://editor.analyticsvidhya.com/uploads/88471with_without_outliers.PNG)
 
 # How can we detect outliers ?
@@ -13,16 +14,19 @@ If our dataset is small, we can detect the outlier by just looking at the datase
 **Below are some of the techniques of detecting outliers**
 
 1- Boxplots
+
 ![image](https://www.statology.org/wp-content/uploads/2022/09/outlierbox2.jpg)
 
 
 2- Z-score
 
 Criteria: any data point whose Z-score falls out of 3rd standard deviation is an outlier.
+
 ![image](https://cdn.analyticsvidhya.com/wp-content/uploads/2023/09/image-76.png)
 
 3- Inter Quantile Range(IQR)
 Criteria: data points that lie 1.5 times of IQR above Q3 and below Q1 are outliers. This shows in detail about outlier treatment in Python.
+
 ![image](https://editor.analyticsvidhya.com/uploads/12311IQR.png)
 
 **Main steps**
