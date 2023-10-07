@@ -30,6 +30,7 @@ Criteria: data points that lie 1.5 times of IQR above Q3 and below Q1 are outlie
 ![image](https://editor.analyticsvidhya.com/uploads/12311IQR.png)
 
 **Main steps**
+
 1- Sort the dataset in ascending order
 
 2- calculate the 1st and 3rd quartiles(Q1, Q3)
