@@ -14,8 +14,6 @@ Given a dataset with unknown distribution (it could be uniform, binomial or comp
 # What are the main steps for executing "Central Limit Theory" ?
 
 1- Now, calculate the individual mean of these samples.
-![image](https://av-eks-blogoptimized.s3.amazonaws.com/Capture161268.png)
-
 
 2- Then, calculate the mean of these sample means.
 
@@ -26,9 +24,6 @@ Given a dataset with unknown distribution (it could be uniform, binomial or comp
 # Distribution of the Variable in the Population  ?
 
 Part of the definition for the central limit theorem states, “regardless of the variable’s distribution in the population.” This part is easy! In a population, the values of a variable can follow different probability distributions. These distributions can range from normal, left-skewed, right-skewed, and uniform, among others.
-![image](https://av-eks-blogoptimized.s3.amazonaws.com/231.png) 
-
-
 
 # Conditions of the Central Limit Theorem  ?
 
