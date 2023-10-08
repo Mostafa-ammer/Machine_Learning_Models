@@ -3,7 +3,7 @@
 Let’s understand the central limit theorem with the help of an example. This will help you intuitively grasp how CLT works underneath.
 Consider that there are 15 departments in the science department of a university, and each department hosts around 100 students. Our task is to calculate the average weight of students in the science department. Sounds simple, right?
 
-**Answer : **
+**Answer :**
 Does this approach make sense? Not really – measuring the weight of all the students will be a very tiresome and long process. So, what can we do instead? Let’s look at an alternate approach.
 
 
@@ -26,7 +26,7 @@ Given a dataset with unknown distribution (it could be uniform, binomial or comp
 # Distribution of the Variable in the Population  ?
 
 Part of the definition for the central limit theorem states, “regardless of the variable’s distribution in the population.” This part is easy! In a population, the values of a variable can follow different probability distributions. These distributions can range from normal, left-skewed, right-skewed, and uniform, among others.
-![image](https://av-eks-blogoptimized.s3.amazonaws.com/231.png)
+![image](https://av-eks-blogoptimized.s3.amazonaws.com/231.png) 
 
 
 
