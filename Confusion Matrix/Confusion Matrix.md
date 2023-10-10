@@ -14,8 +14,11 @@ A Confusion matrix is an N x N matrix used for evaluating the performance of a c
 # what are the important Terms in a Confusion Matrix ?
 
 **True Positive (TP)** :  The actual value was positive, and the model predicted a positive value.
+
 **True Negative (TN)**:  The actual value was negative, and the model predicted a negative value.
+
 **False Positive (FP) – Type I Error**:  The actual value was negative, but the model predicted a positive value.
+
 **False Negative (FN) – Type II Error**:  The actual value was positive, but the model predicted a negative value.
 
 
