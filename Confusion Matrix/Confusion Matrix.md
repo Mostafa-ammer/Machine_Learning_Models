@@ -14,12 +14,12 @@ A Confusion matrix is an N x N matrix used for evaluating the performance of a c
 # what are the important Terms in a Confusion Matrix ?
 
 **True Positive (TP)** :  The actual value was positive, and the model predicted a positive value.
-**True Negative (TN) **:  The actual value was negative, and the model predicted a negative value.
+**True Negative (TN)**:  The actual value was negative, and the model predicted a negative value.
 **False Positive (FP) – Type I Error**:  The actual value was negative, but the model predicted a positive value.
 **False Negative (FN) – Type II Error**:  The actual value was positive, but the model predicted a negative value.
 
 
-**Example : **
+**Example :**
 Suppose we had a classification dataset with 1000 data points. We fit a classifier (say logistic regression or decision tree) on it and get the below confusion matrix:
 
 
@@ -42,30 +42,3 @@ What is the differnce between Precision vs. Recall ?
 # What Is F1-Score?
 
 F1-score is a harmonic mean of Precision and Recall, and so it gives a combined idea about these two metrics. It is maximum when Precision is equal to Recall.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
