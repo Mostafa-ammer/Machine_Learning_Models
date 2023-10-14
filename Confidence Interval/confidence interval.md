@@ -6,8 +6,10 @@ is a range of values that is likely to contain the true population parameter wit
 **Confidence Interval=Sample Statistic±Margin of Error**
 
 -  where "Sample Statistic" is  sample mean 
- - The "Margin of Error" is a measure of the uncertainty in the estimate and is usually determined using the standard error 
+ - The "Margin of Error" is a measure of the uncertainty in the estimate and is usually determined using the standard error
+ - 
 **Margin of Error=Critical Value×SE**'
+
 **SE=sd/ √n**
 
 Ex 1 :
